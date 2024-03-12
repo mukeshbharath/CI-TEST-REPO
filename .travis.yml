@@ -6,6 +6,7 @@ before_install:
   - export TZ=Asia/Calcutta
 install:
   - pip install -r requirements.txt
+  - pip install pytz
 # command to run tests
 script:
   - python test.py
